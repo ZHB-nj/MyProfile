@@ -4,18 +4,18 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://github.com/ZHB-nj/houbo",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
     "styled-components": "^6.1.15"
   },
   "devDependencies": {
